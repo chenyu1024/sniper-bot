@@ -14,7 +14,8 @@ const (
 )
 
 const (
-	BscRpcAddr = "https://bsc-dataseed.binance.org/"
+	//BscRpcAddr = "https://bsc-dataseed1.ninicoin.io/"
+	BscRpcAddr = "https://data-seed-prebsc-1-s2.binance.org:8545/"
 	EthRpcAddr = "https://main-light.eth.linkpool.io/"
 )
 
@@ -27,7 +28,7 @@ var (
 	ZeroAddress = common.Address{}
 	ChainIdMap  = map[string]int64{
 		ChainTypeEth: 1,
-		ChainTypeBsc: 56,
+		ChainTypeBsc: 97,
 	}
 	UniSwapWrapperTokenContractMap = map[string]common.Address{
 		ChainTypeEth: common.HexToAddress(WETHAddress),

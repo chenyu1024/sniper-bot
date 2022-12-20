@@ -15,7 +15,9 @@ limitations under the License.
 */
 package main
 
-import "github.com/fitzix/sniper-bot/cmd"
+import (
+	"wxjkzcy/cmd"
+)
 
 func main() {
 	cmd.Execute()

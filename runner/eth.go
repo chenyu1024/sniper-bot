@@ -16,10 +16,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/fitzix/sniper-bot/consts"
-	"github.com/fitzix/sniper-bot/contract/uniswap"
-	"github.com/fitzix/sniper-bot/utils"
 	"github.com/spf13/viper"
+	"wxjkzcy/consts"
+	"wxjkzcy/contract/uniswap"
+	"wxjkzcy/utils"
 )
 
 type ethRunner struct {

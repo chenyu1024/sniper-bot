@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/fitzix/sniper-bot/consts"
-	"github.com/fitzix/sniper-bot/runner"
 	"github.com/spf13/cobra"
+	"wxjkzcy/consts"
+	"wxjkzcy/runner"
 )
 
 // dxsaleCmd represents the dxsale command
